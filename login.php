@@ -42,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     header('Location: modulos/RH/rh_dashboard.php');
                 } elseif ($area === 'Ventas') {
                     header('Location: ventas_dashboard.php');
-                } elseif ($area === 'Soporte') {
-                    header('Location: soporte_dashboard.php');
+                } elseif ($area === 'it') {
+                    header('Location: it_dashboard.php');
                 } else {
                     header('Location: default_dashboard.php');
                 }

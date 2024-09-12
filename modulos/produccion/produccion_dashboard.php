@@ -21,7 +21,7 @@ $username= $_SESSION['username'];
     <title>Dashboard de Producción</title>
 </head>
 <body>
-    <?php include '../nav.php'; ?>
+    <?php include "../header.php";?>
     <div class="container mt-5">
         <h1>Bienvenido, <?php echo htmlspecialchars($username); ?>!</h1>
         <p>Área: Producción</p>

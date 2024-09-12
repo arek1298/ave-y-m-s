@@ -43,7 +43,7 @@ if ($result->num_rows > 0) {
     $pdf->Cell(10, 10, 'ID', 1);
     $pdf->Cell(80, 10, 'Descripcion', 1);
     $pdf->Cell(30, 10, 'Fecha', 1);
-    $pdf->Cell(70, 10, 'Notas Adicionales', 1);
+    $pdf->Cell(350, 10, 'Notas Adicionales', 1);
     $pdf->Ln();
 
     // Contenido de tareas
